@@ -1,0 +1,91 @@
+body{
+    justify-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #151f29;
+}
+*{
+    margin: 16px ;
+}
+span{
+    color: #969696;
+    font-weight: 1;
+    margin: 0;
+}
+.pic{
+    margin-top: 50px;
+}
+button{
+    height: 54px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #4f7df3;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    margin: 16px 0;
+}
+input{
+    height: 48px;
+    width: 400px;
+    border: 1px solid #4f7df3;
+    border-radius: 40px;
+    outline: none;
+    border-color: #4f7df3;
+    padding-left: 24px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+input::placeholder{
+    color: #4f7df34f;
+}
+.error{
+    font-style: italic;
+    font-size: 12px;
+    color: #ff5263;
+    margin: 0 0 0 48px;
+    display: none;
+    overflow: hidden;
+}
+.copyright{
+    color: #969696;
+    font-size: 12px;
+    font-weight: lighter;
+}
+@media (max-width: 431px) {
+    body{
+        text-align: center;
+        margin-inline: auto;
+        padding: 0 30px;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    .pic{
+        width: 100%;
+    }.input-area{
+        width: 100%;
+        margin-top: 48px;
+        display: block;
+    }
+    .error{
+        margin: 8px 0 0 0;
+    }
+    input{
+        width: 90%;
+        margin: 0;
+    }
+    button{
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+}
